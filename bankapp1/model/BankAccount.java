@@ -26,6 +26,5 @@ public abstract class BankAccount {
         this.accountHolderName = accountHolderName;
     }
 
-    // abstract method to be implemented by subclasses
     public abstract double calculateInterest();
 }
